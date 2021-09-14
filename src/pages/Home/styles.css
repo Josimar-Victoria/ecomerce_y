@@ -1,0 +1,80 @@
+.main__info {
+  background-color: #fff;
+  max-width: 780px;
+}
+.main__text {
+  font-weight: 500;
+  margin-left: 23px;
+  font-size: 30px;
+}
+.main__info img {
+  margin-left: 25px;
+  width: 210%;
+  height: 670px !important;
+  object-fit: cover;
+}
+.main__info-compra {
+  text-align: center;
+}
+.main__title {
+  font-weight: bold;
+  font-size: 60px;
+}
+.main__info-text {
+  font-weight: 400;
+  font-size: 20px;
+}
+.main__buttom {
+  background: black;
+  color: white;
+  padding: 20px;
+  border-radius: 50%;
+}
+@media screen and (max-width: 780px) {
+  .main__info img {
+    min-width: 90%;
+    max-width: 90%;
+  }
+}
+
+/* ProductMasVendisos*/
+.masVendidos_containe {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.masVendidos_title {
+  margin-left: 5px;
+  font-weight: 600;
+  font-size: 65px;
+}
+
+.masVendidos_img {
+  height: auto;
+  width: 100%;
+  margin-top: 20px;
+  object-fit: contain;
+}
+.masvendidos_name {
+  margin: 0 10px 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.masVendidos_info > span {
+  margin: 0 10px 10px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  color: gray;
+
+}
+
+/*Grid ccs */
+.masVendasGrid{
+  display: grid;
+  grid-template-columns:  repeat(auto-fill, 300px);
+  gap: 40px;
+  padding: 40px;
+  justify-content: center;
+}
